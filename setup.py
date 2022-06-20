@@ -11,5 +11,6 @@ setup(
     keywords=['rapidapi', 'trueway', 'geocoding'],
     classifiers=[],
     long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     url='https://github.com/dankaprogg/trueway_geocoding_rapidapi',
 )
