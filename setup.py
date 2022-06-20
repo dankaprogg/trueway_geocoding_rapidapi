@@ -10,4 +10,6 @@ setup(
     author='Daniil Shvedov',
     keywords=['rapidapi', 'trueway', 'geocoding'],
     classifiers=[],
+    long_description=open('README.md').read(),
+    url='https://github.com/dankaprogg/trueway_geocoding_rapidapi',
 )
