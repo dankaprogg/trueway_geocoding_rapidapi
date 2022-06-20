@@ -9,8 +9,8 @@ from urllib.parse import urlencode
 import aiohttp
 from purl import URL
 
-from trueway_geocoding_rapidapi.schemas.schema import ReverseGeocodeItem
-from trueway_geocoding_rapidapi.schemas.schema import ReverseGeocodeModel
+from .schemas import ReverseGeocodeItem
+from .schemas import ReverseGeocodeModel
 
 
 class TrueWayGeocodeRapidAPI(object):

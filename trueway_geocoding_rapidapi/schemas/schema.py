@@ -3,9 +3,9 @@ from typing import List
 from typing import Optional
 from typing import Union
 
-from trueway_geocoding_rapidapi.schemas.base import BaseModelORM
-from trueway_geocoding_rapidapi.schemas.enums import ReverseGeocodeItemLocationType
-from trueway_geocoding_rapidapi.schemas.enums import ReverseGeocodeItemType
+from .base import BaseModelORM
+from .enums import ReverseGeocodeItemLocationType
+from .enums import ReverseGeocodeItemType
 
 
 class ReverseGeocodeLocation(BaseModelORM):
