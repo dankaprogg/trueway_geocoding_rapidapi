@@ -1,5 +1,7 @@
 # TrueWay Geocoding API on RapidAPI
 
+## Available on [PyPi](https://pypi.org/project/trueway-geocoding-rapidapi/)
+
 ## Install
 ### using pip
 ```
